@@ -1,0 +1,22 @@
+.WorksBlock {
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.Container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.WorksContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

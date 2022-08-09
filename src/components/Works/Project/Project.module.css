@@ -1,0 +1,29 @@
+.ProjectBox {
+    width: 300px;
+}
+
+.PictureBlock {
+    height: 200px;
+    width: 100%;
+    background-image: url(https://puzzleit.ru/files/puzzles/107/107406/_original.jpg);
+    background-position: center;
+    transition: 1s;
+}
+
+.PictureBlock:hover {
+    opacity: 0.5;
+}
+
+.Button {
+    width: 100px;
+    height: 40px;
+    opacity: 1;
+    z-index: 2;
+    position: absolute;
+}
+
+.InvisibleButton {
+    width: 100px;
+    height: 40px;
+    display: none;
+}

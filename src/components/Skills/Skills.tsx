@@ -12,7 +12,7 @@ function Skills() {
                     <Skill iconName={"fa-brands fa-square-js"} title={"JS"} description={"Loaccusrem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore reiciendis, autem sit officia nostrum repellendus rerum optio amet maiores quisquam quidem, ut "}/>
                     <Skill iconName={"fa-solid fa-code"} title={"Typescript"} description={"Loaccusrem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore reiciendis, autem sit officia nostrum repellendus rerum optio amet maiores quisquam quidem, ut "}/>
                     <Skill iconName={"fa-brands fa-html5"} title={"HTML"} description={"Loaccusrem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore reiciendis, autem sit officia nostrum repellendus rerum optio amet maiores quisquam quidem, ut "}/>
-                    <Skill iconName={"fa-brands fa-css3-alt"} title={"CSS"} description={"Loaccusrem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore reiciendis, autem sit officia nostrum repellendus rerum optio amet maiores quisquam quidem, ut "}/>
+                    {/* <Skill iconName={"fa-brands fa-css3-alt"} title={"CSS"} description={"Loaccusrem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore reiciendis, autem sit officia nostrum repellendus rerum optio amet maiores quisquam quidem, ut "}/> */}
                 </div>
             </div>
         </div>
