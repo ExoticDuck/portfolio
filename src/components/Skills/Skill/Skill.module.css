@@ -1,0 +1,14 @@
+.Skill {
+    width: 250px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.Description {
+
+}
+
+.Icon {}
+.Icon i {
+    font-size: 40px;
+}

@@ -1,0 +1,28 @@
+.SkillsBlock {
+    height: 100vh;
+    background-color: chocolate;
+}
+
+.Container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Skills {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Title {
+    background-color: lightgray;
+}
