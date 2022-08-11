@@ -1,10 +1,34 @@
 .FooterBlock {
-    height: 500px;
+    height: 120px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .LinksContaier {
     width: 540px;
     height: 60px;
     border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.IconBox {
+    width: 60px;
+    height: 60px;
+}
+
+i {
+    font-size: 60px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+a {
+    color: black;
 }

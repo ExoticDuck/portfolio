@@ -11,7 +11,7 @@ function Form() {
                 <input className={style.NameInput} placeholder="Name"></input>
                 <input className={style.EmailInput} placeholder="Email"></input>
                 <textarea className={style.Textarea} placeholder="Your message"></textarea>
-                <button type='submit'>Send</button>
+                <button type='submit' className={style.Button}>Send</button>
             </form>
         </div>
     </div> );
