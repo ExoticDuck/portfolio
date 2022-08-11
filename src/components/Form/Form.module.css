@@ -1,0 +1,42 @@
+.FormBlock {
+    height: 100vh;
+    background-color: darkkhaki;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.FormContainer {
+    width: 540px;
+    height: 300px;
+    border: 1px solid;
+}
+
+.NameInput {
+    width: 100%;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+.EmailInput {
+    width: 100%;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+.Textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    min-height: 158px;
+    max-height: 158px;
+    
+}

@@ -1,0 +1,10 @@
+.FooterBlock {
+    height: 500px;
+    background-color: white;
+}
+
+.LinksContaier {
+    width: 540px;
+    height: 60px;
+    border: 1px solid;
+}
