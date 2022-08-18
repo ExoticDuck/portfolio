@@ -7,7 +7,7 @@ function Form() {
             <h2>Contact</h2>
         </div>
         <div className={style.FormContainer}>
-            <form style={{width: 540}}>
+            <form className={style.Form}>
                 <input className={style.NameInput} placeholder="Name"></input>
                 <input className={style.EmailInput} placeholder="Email"></input>
                 <textarea className={style.Textarea} placeholder="Your message"></textarea>

@@ -5,10 +5,11 @@ type PropsType = {
     iconName: string
     title: string
     description: string
+    id: number
 }
 
 function Skill(props: PropsType) {
-    return (<div className={style.Skill}>
+    return (<div className={props.id % 2 === 0 ? style.SkillOdd : style.Skill}>
         <div className={style.Icon}>
             <i className={props.iconName}></i>
         </div>
