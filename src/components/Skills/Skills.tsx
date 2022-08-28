@@ -4,7 +4,7 @@ import style from './Skills.module.css'
 
 function Skills() {
     return ( 
-        <div className={style.SkillsBlock}>
+        <div className={style.SkillsBlock} id="skills">
             <div className={style.Container}>
                 <h2 className={style.Title}>Skills</h2>
                 <div className={style.Skills}>

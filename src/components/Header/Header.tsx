@@ -4,7 +4,7 @@ import style from './Header.module.css'
 
 function Header() {
     return ( 
-        <div className={style.Header}>
+        <div className={style.Header} id="home">
             <Navigation/>
         </div>
      );

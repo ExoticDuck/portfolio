@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Form.module.css'
 
 function Form() {
-    return (<div className={style.FormBlock}>
+    return (<div className={style.FormBlock} id="contacts">
         <div>
             <h2>Contact</h2>
         </div>

@@ -1,6 +1,22 @@
 .Navigation {
-    width: 300px;
-    border: 1px solid black;
+    width: fit-content;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
+}
+
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 540px) {
+    a:hover {
+        margin: auto 20px;
+        font-size: 30px;
+        text-align: center;
+    }
 }

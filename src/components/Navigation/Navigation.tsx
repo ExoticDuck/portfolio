@@ -4,10 +4,10 @@ import style from './Navigation.module.css'
 function Navigation() {
     return (
         <div className={style.Navigation}>
-            <a href="">Home</a>
-            <a href="">Scills</a>
-            <a href="">Projects</a>
-            <a href="">Contacts</a>
+            <a href="#home">Home</a>
+            <a href="#skills">Scills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
         </div>
     );
 }

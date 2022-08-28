@@ -1,13 +1,12 @@
 .MainBlock {
     height: calc(100vh - 80px);
-    background-color:cadetblue;
+    background-color: white;
 }
-
 
 .Container {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 100%;
     display: flex;
     align-items: center;
@@ -15,8 +14,36 @@
 }
 
 .TextBlock {
-    width: 300px;
-    background-color: aliceblue;
+    width: fit-content;
+    /* background-color: aliceblue; */
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    padding: 10px 5px;
+}
+
+.Hello {
+    font-size: 30px;
+}
+
+.Transparent {
+    font-size: 50px;
+    font-weight: 800;
+    font-size: 70px;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+    background: url("https://i.gifer.com/Bwty.gif");
+    background-size: 200px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* Below is not needed */
+   
+}
+
+
+h1 {
+    margin: 10px;
+    font-size: 45px;
+    font-weight: 500;
 }
 
 .PhotoBlock {
@@ -27,7 +54,7 @@
 
 @media screen and (min-width: 1440px) {
     .Container {
-        width: 60%;
+        width: 80%;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 800px) {
