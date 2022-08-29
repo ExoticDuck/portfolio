@@ -5,7 +5,7 @@ function Navigation() {
     return (
         <div className={style.Navigation}>
             <a href="#home">Home</a>
-            <a href="#skills">Scills</a>
+            <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contacts">Contacts</a>
         </div>
