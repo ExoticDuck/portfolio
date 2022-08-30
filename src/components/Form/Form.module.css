@@ -1,16 +1,44 @@
 .FormBlock {
     height: 100vh;
-    background-color: darkkhaki;
+    background-color: #001845;
+    /* background-color: #4158d0;
+    background-image: linear-gradient(315deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%); */
+    /* background-image: url("https://img.freepik.com/free-vector/black-abstract-background-design_361591-1474.jpg?w=1380&t=st=1661887027~exp=1661887627~hmac=3e438a40ba6754c0a8270dcdf16d0111852263f64da39c9fb975f889c3dbc398"); */
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    /* transition: all 5s ease-out;
+    animation-name: animate;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; */
+}
+
+.Card {
+    width: 740px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.7px);
+    -webkit-backdrop-filter: blur(11.7px);
+    padding: 15px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.Header {
+    color: white;
+    font-weight: 300;
+    font-size: 50px;
 }
 
 .FormContainer {
     width: 540px;
     height: 300px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .NameInput {
@@ -20,6 +48,19 @@
     box-sizing: border-box;
     height: 32px;
     margin-bottom: 20px;
+    background-color: inherit;
+    border: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+textarea::placeholder {
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 .EmailInput {
@@ -29,6 +70,10 @@
     box-sizing: border-box;
     height: 32px;
     margin-bottom: 20px;
+    background-color: inherit;
+    border: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+    color: white;
 }
 
 .Textarea {
@@ -38,13 +83,22 @@
     outline: none;
     min-height: 158px;
     max-height: 158px;
-    
+    background-color: inherit;
+    border: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+    color: white;
 }
 
 .Button {
     width: 100px;
     height: 30px;
-margin-left: 0px auto;
+    margin: 10px auto;
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.493);
 }
 
 .Form {

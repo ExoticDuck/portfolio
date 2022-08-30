@@ -24,6 +24,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 
 .WorksContainer:hover .Item {
@@ -35,7 +36,7 @@
     height: 100%; */
     object-fit: cover;
 
-    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);
+    /* -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004); */
 
     transform-origin: center;
     transform: perspective(800px) rotateY(20deg);
