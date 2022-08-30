@@ -20,10 +20,10 @@
 .Card {
     width: 740px;
     height: 400px;
-    background: rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.178);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(11.7px);
+    backdrop-filter: blur(9.7px);
     -webkit-backdrop-filter: blur(11.7px);
     padding: 15px;
     font-family: "IBM Plex Sans", sans-serif;

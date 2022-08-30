@@ -1,8 +1,10 @@
 import React from 'react';
+import { ParticlesContainer } from '../Particle/Particle';
 import style from './Form.module.css'
 
 function Form() {
     return (<div className={style.FormBlock} id="contacts">
+        <ParticlesContainer/>
         <div className={style.Card}>
             <div className={style.Header}>
                 CONTACT ME
